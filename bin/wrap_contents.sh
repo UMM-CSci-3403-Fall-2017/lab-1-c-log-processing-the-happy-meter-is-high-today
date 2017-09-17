@@ -7,4 +7,4 @@ HeadorFoot=$2
 FileOutPut=$3
 
 
-cat ${HeadorFoot}_header.html $FileName ${HeadorFoot}_footer.html >> $FileOutPut
+cat "$HeadorFoot"_header.html $FileName "$HeadorFoot"_footer.html > $FileOutPut
